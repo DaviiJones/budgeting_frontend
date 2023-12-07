@@ -1,11 +1,12 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Edit from "./Pages/edit"
-import FourOFour from "./Pages/FourOFour";
+//import FourOFour from "./Pages/FourOFour";
 import Home from "./Pages/home";
 import Index from "./Pages/index";
 import New from "./Pages/new";
 import Show from "./Pages/show";
 import NavBar from "./Components/navBar";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+
 
 import './App.css'
 
