@@ -1,9 +1,9 @@
-import Edit from "./Pages/Edit";
-import FourOFour from "./Pages/FourOFour";
-import Home from "./Pages/Home";
-import Index from "./Pages/Index";
-import New from "./Pages/New";
-import Show from "./Pages/Show";
+import Edit from "./Pages/edit";
+import FourOFour from "./Pages/fourOFour";
+import Home from "./Pages/home";
+import Index from "./Pages/index";
+import New from "./Pages/new";
+import Show from "./Pages/show";
 import NavBar from "./Components/navBar";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 

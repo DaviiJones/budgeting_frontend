@@ -49,7 +49,7 @@ function NewTransaction() {
                 <label htmlFor="amount">Amount:</label>
                 <input
                     id="amount"
-                    type="text"
+                    type="number"
                     required
                     value={newTransaction.amount}
                     placeholder="Amount"
@@ -77,14 +77,14 @@ function NewTransaction() {
                     required
                 />
 
-<label htmlFor="categoryDescription">Category:</label>
-<textarea
-  id="categoryDescription"
-  name="categoryDescription"
-  value={newTransaction.category}
-  onChange={handleTextChange}
-  placeholder="Category"
-/>
+                <label htmlFor="categoryDescription">Category:</label>
+                <textarea
+                    id="categoryDescription"
+                    name="categoryDescription"
+                    value={newTransaction.category}
+                    onChange={handleTextChange}
+                    placeholder="Category"
+                />
 
 
                 <br />
