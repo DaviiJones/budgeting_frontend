@@ -1,5 +1,5 @@
 import Edit from "./Pages/edit"
-import FourOFour from "./Pages/fourOFour";
+import FourOFour from "./Pages/FourOFour";
 import Home from "./Pages/home";
 import Index from "./Pages/index";
 import New from "./Pages/new";
