@@ -1,6 +1,6 @@
+import Transactions from "../Components/transactions";
 
-
-function index() {
+function Index() {
   return (
     <div className="index">
       <h2>Index</h2>
@@ -9,4 +9,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

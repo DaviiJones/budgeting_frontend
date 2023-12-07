@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import "./navBar.css"
 
-
-const navBar = () => {
+const NavBar = () => {
     return (
-        <nav>
+        <nav className="navBar">
             
             <button>
                 <Link to="/Transactions">Transactions</Link>
@@ -17,4 +17,4 @@ const navBar = () => {
     );
 };
 
-export default navBar;
+export default NavBar;

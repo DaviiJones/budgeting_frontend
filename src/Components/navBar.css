@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding-top: 60px; /* Adjust this value based on your navbar height */
+  }
+  
+  .navBar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 20px;
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .navBar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+    padding: 10px; 
+    text-align: center;
+  }
+  
+  .navBar a:hover {
+    color: forestgreen;
+  }
+  

@@ -1,0 +1,35 @@
+/* Transactions.css */
+
+.transactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .total-amount,
+  .remainder {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto; 
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: forestgreen;
+  }
+  
+  .item-cell {
+    cursor: alias;
+  }
+  

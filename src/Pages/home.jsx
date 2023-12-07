@@ -1,9 +1,12 @@
-function home() {
+import React from "react";
+import "./home.css"
+
+function Home() {
     return (
-      <div>
-        <h2>Welcome to THE Budgeting app!</h2>
+      <div className="title">
+        <h2>Welcome!</h2>
       </div>
     );
   }
   
-  export default home;
+  export default Home;
