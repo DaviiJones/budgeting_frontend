@@ -1,4 +1,4 @@
-import Edit from "./Pages/edit";
+import Edit from "./Pages/edit"
 import FourOFour from "./Pages/fourOFour";
 import Home from "./Pages/home";
 import Index from "./Pages/index";
